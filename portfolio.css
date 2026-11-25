@@ -1,0 +1,187 @@
+
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f4;
+    margin: 0;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #dceadd;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #315b3d;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #476b50;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    background-color: #476b50;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #dceadd;
+    text-decoration: underline;
+}
+
+
+/* Main Content */
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #476b50;
+    border-bottom: 2px solid #dceadd;
+    padding-bottom: 8px;
+}
+
+
+/* Home Section */
+
+.home {
+    text-align: center;
+    padding: 35px;
+}
+
+.home img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #dceadd;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.home h2 {
+    color: #315b3d;
+    border: none;
+}
+
+.home p {
+    line-height: 1.8;
+}
+
+
+/* Skills and Hobbies */
+
+section ul {
+    line-height: 2;
+}
+
+
+/* Projects */
+
+.project {
+    background-color: #f5f7f4;
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 4px solid #476b50;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #315b3d;
+}
+
+
+/* Links */
+
+a {
+    color: #476b50;
+}
+
+#contact a {
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #476b50;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 92%;
+    }
+
+    nav li {
+        margin: 6px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .home img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
